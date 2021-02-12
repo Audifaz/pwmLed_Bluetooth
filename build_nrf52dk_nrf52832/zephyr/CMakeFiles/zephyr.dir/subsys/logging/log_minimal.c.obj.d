@@ -1,0 +1,30 @@
+zephyr/CMakeFiles/zephyr.dir/subsys/logging/log_minimal.c.obj: \
+ /home/audifaz/ncs/zephyr/subsys/logging/log_minimal.c \
+ /home/audifaz/Test/peripheral_pwm/build_nrf52dk_nrf52832/zephyr/include/generated/autoconf.h \
+ /home/audifaz/ncs/zephyr/include/toolchain/zephyr_stdint.h \
+ /home/audifaz/ncs/zephyr/include/sys/printk.h \
+ /home/audifaz/ncs/zephyr/include/toolchain.h \
+ /home/audifaz/ncs/zephyr/include/toolchain/gcc.h \
+ /home/audifaz/ncs/zephyr/include/toolchain/common.h \
+ /home/audifaz/ncs/zephyr/lib/libc/minimal/include/stdbool.h \
+ /opt/gnuarmemb/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
+ /opt/gnuarmemb/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/audifaz/ncs/zephyr/lib/libc/minimal/include/inttypes.h \
+ /home/audifaz/ncs/zephyr/lib/libc/minimal/include/stdint.h \
+ /home/audifaz/ncs/zephyr/lib/libc/minimal/include/ctype.h \
+ /home/audifaz/ncs/zephyr/include/logging/log.h \
+ /home/audifaz/ncs/zephyr/include/logging/log_instance.h \
+ /home/audifaz/ncs/zephyr/include/zephyr/types.h \
+ /home/audifaz/ncs/zephyr/include/logging/log_core.h \
+ /home/audifaz/ncs/zephyr/include/logging/log_msg.h \
+ /home/audifaz/ncs/zephyr/include/sys/atomic.h \
+ /home/audifaz/ncs/zephyr/include/sys/util.h \
+ /home/audifaz/ncs/zephyr/include/sys/util_macro.h \
+ /home/audifaz/ncs/zephyr/include/sys/util_internal.h \
+ /home/audifaz/ncs/zephyr/lib/libc/minimal/include/string.h \
+ /home/audifaz/ncs/zephyr/lib/libc/minimal/include/bits/restrict.h \
+ /home/audifaz/ncs/zephyr/include/syscall.h \
+ zephyr/include/generated/syscall_list.h \
+ /home/audifaz/ncs/zephyr/include/arch/syscall.h \
+ /home/audifaz/ncs/zephyr/include/arch/arm/aarch32/syscall.h \
+ zephyr/include/generated/syscalls/log_core.h
