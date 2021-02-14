@@ -35,7 +35,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/audifaz/Test/peripheral_pwm/build_nrf52dk_nrf52832/modules/nrf/subsys/bluetooth/controller/cmake_install.cmake")
-  include("/home/audifaz/Test/peripheral_pwm/build_nrf52dk_nrf52832/modules/nrf/subsys/bluetooth/services/cmake_install.cmake")
 
 endif()
 

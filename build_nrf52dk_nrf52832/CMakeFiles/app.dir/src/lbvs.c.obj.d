@@ -1,5 +1,4 @@
-zephyr/CMakeFiles/zephyr.dir/home/audifaz/ncs/nrf/subsys/bluetooth/services/lbs.c.obj: \
- /home/audifaz/ncs/nrf/subsys/bluetooth/services/lbs.c \
+CMakeFiles/app.dir/src/lbvs.c.obj: ../src/lbvs.c \
  /home/audifaz/Test/peripheral_pwm/build_nrf52dk_nrf52832/zephyr/include/generated/autoconf.h \
  /home/audifaz/ncs/zephyr/include/toolchain/zephyr_stdint.h \
  /home/audifaz/ncs/zephyr/include/zephyr/types.h \
@@ -127,8 +126,7 @@ zephyr/CMakeFiles/zephyr.dir/home/audifaz/ncs/nrf/subsys/bluetooth/services/lbs.
  /home/audifaz/ncs/zephyr/include/bluetooth/gatt.h \
  /home/audifaz/ncs/zephyr/lib/libc/minimal/include/sys/types.h \
  /home/audifaz/ncs/zephyr/lib/libc/minimal/include/sys/_types.h \
- /home/audifaz/ncs/zephyr/include/bluetooth/att.h \
- /home/audifaz/ncs/nrf/include/bluetooth/services/lbs.h \
+ /home/audifaz/ncs/zephyr/include/bluetooth/att.h ../src/lbvs.h \
  /home/audifaz/ncs/zephyr/include/logging/log.h \
  /home/audifaz/ncs/zephyr/include/logging/log_instance.h \
  /home/audifaz/ncs/zephyr/include/logging/log_core.h \

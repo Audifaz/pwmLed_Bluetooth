@@ -134,8 +134,7 @@ CMakeFiles/app.dir/src/main.c.obj: ../src/main.c \
  /home/audifaz/ncs/zephyr/include/bluetooth/gatt.h \
  /home/audifaz/ncs/zephyr/lib/libc/minimal/include/sys/types.h \
  /home/audifaz/ncs/zephyr/lib/libc/minimal/include/sys/_types.h \
- /home/audifaz/ncs/zephyr/include/bluetooth/att.h \
- /home/audifaz/ncs/nrf/include/bluetooth/services/lbs.h \
+ /home/audifaz/ncs/zephyr/include/bluetooth/att.h ../src/lbvs.h \
  /home/audifaz/ncs/zephyr/include/settings/settings.h \
  /home/audifaz/ncs/nrf/include/dk_buttons_and_leds.h \
  /home/audifaz/ncs/zephyr/include/drivers/pwm.h \

@@ -21,7 +21,7 @@
 #include <bluetooth/uuid.h>
 #include <bluetooth/gatt.h>
 
-#include <bluetooth/services/lbs.h>
+#include "lbvs.h"
 
 #include <settings/settings.h>
 
@@ -168,7 +168,7 @@ static struct bt_conn_auth_cb conn_auth_callbacks = {
 #else
 static struct bt_conn_auth_cb conn_auth_callbacks;
 #endif
-void pwm_set(uint32_t value){
+void pwm_set(){
         int ret;
         ret = pwm_pin_set_usec(pwm, PWM_CHANNEL, PERIOD_USEC, PERIOD_USEC/2, PWM_FLAGS);
 }
@@ -186,8 +186,8 @@ static bool app_button_cb(void)
 
 static void app_value_cb(uint32_t value){
         data=value;
-        //pwm_set(data);
-        printk("Duty Cycle: %i\n", &value);
+        pwm_set();
+        printk("Duty Cycle: %i\n", value);
 }
 
 static struct bt_lbs_cb lbs_callbacs = {
@@ -221,7 +221,7 @@ static int init_button(void)
 void main(void)
 {
 	int blink_status = 0;
-	int err,ret;
+	int err;
         const struct device *pwm;
 	printk("Starting Bluetooth Peripheral LBS example\n");
         /*PWM INIT*/
@@ -230,6 +230,7 @@ void main(void)
 		printk("Error: didn't find %s device\n", PWM_LABEL);
 		return;
 	}
+        //int ret;
         //ret = pwm_pin_set_usec(pwm, PWM_CHANNEL, PERIOD_USEC, PERIOD_USEC/2, PWM_FLAGS);
 	err = dk_leds_init();
 	if (err) {

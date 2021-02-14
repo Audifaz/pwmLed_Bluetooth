@@ -187,8 +187,6 @@
 /home/audifaz/Test/peripheral_pwm/build_nrf52dk_nrf52832/modules/nrf/subsys/bluetooth/controller/CMakeFiles/rebuild_cache.dir
 /home/audifaz/Test/peripheral_pwm/build_nrf52dk_nrf52832/modules/nrf/subsys/bluetooth/controller/CMakeFiles/edit_cache.dir
 /home/audifaz/Test/peripheral_pwm/build_nrf52dk_nrf52832/modules/nrf/subsys/bluetooth/controller/CMakeFiles/..__nrf__subsys__bluetooth__controller.dir
-/home/audifaz/Test/peripheral_pwm/build_nrf52dk_nrf52832/modules/nrf/subsys/bluetooth/services/CMakeFiles/rebuild_cache.dir
-/home/audifaz/Test/peripheral_pwm/build_nrf52dk_nrf52832/modules/nrf/subsys/bluetooth/services/CMakeFiles/edit_cache.dir
 /home/audifaz/Test/peripheral_pwm/build_nrf52dk_nrf52832/modules/nrf/subsys/net/CMakeFiles/rebuild_cache.dir
 /home/audifaz/Test/peripheral_pwm/build_nrf52dk_nrf52832/modules/nrf/subsys/net/CMakeFiles/edit_cache.dir
 /home/audifaz/Test/peripheral_pwm/build_nrf52dk_nrf52832/modules/nrf/subsys/net/lib/CMakeFiles/rebuild_cache.dir
